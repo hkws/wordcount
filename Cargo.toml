@@ -11,6 +11,7 @@ readme = "README.md"
 repository = "https://github.com/hkws/wordcount"
 categories = ["command-line-utilities"]
 keywords = ["example", "frequesncy", "text"]
+excludes = ["text.txt", "tests/*"]
 
 [badges]
 travis-ci = { repository = "hkws/wordcount" }
