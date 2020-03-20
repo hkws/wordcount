@@ -5,6 +5,15 @@ authors = ["kwahiro <hkws0130@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT OR Apache-2.0"
+description = "文字、単語、行の出現頻度計算"
+readme = "README.md"
+repository = "https://github.com/hkws/wordcount"
+categories = ["command-line-utilities"]
+keywords = ["example", "frequesncy", "text"]
+
+[badges]
+travis-ci = { repository = "hkws/wordcount" }
 
 [dependencies]
 regex = "1.0"
